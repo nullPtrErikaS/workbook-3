@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600px" width="600px">
+    <!-- Define a star shape to use later -->
+    <defs>
+        <polygon id="star" points="10,1 12,7 18,7 13,11 15,17 10,13 5,17 7,11 2,7 8,7" fill="gold" />
+    </defs>
+
+    <!-- Group for a tree -->
+    <g id="tree" transform="translate(50, 50)">
+        <!-- Tree trunk -->
+        <rect x="-10" y="0" width="20" height="50" fill="saddlebrown" />
+        <!-- Tree foliage -->
+        <circle cx="0" cy="-20" r="30" fill="green" />
+    </g>
+
+    <!-- Use the tree group multiple times with transformations -->
+    <use href="#tree" x="100" y="100" />
+    <use href="#tree" x="200" y="150" transform="scale(1.5)" />
+    <use href="#tree" x="300" y="200" transform="scale(0.8)" />
+
+    <!-- Path with an arc -->
+    <path d="M 100 300 A 50 50 0 0 1 200 300" stroke="blue" fill="none" />
+
+    <!-- Polygon that is not a rectangle -->
+    <polygon points="300,400 350,450 300,500 250,450" fill="purple" />
+
+    <!-- Group with nested groups -->
+    <g transform="translate(400, 100)">
+        <g transform="rotate(45)">
+            <rect x="-25" y="-25" width="50" height="50" fill="red" />
+        </g>
+    </g>
+
+    <!-- Use the star shape multiple times with transformations -->
+    <use href="#star" x="100" y="400" />
+    <use href="#star" x="200" y="450" transform="rotate(45 200 450)" />
+    <use href="#star" x="300" y="500" transform="scale(1.5)" />
+</svg>

@@ -1,0 +1,25 @@
+Wisc ID: esy
+GitHub ID: nullPtrErikaS
+
+[x] correct WB3 Canvas Assignment submission on time [none]: (I modified it after class on 2/6/2025)
+[x] completed 03-workbook.txt in the for_student folder correctly [none]: 
+[x] restore the triangle to original position when the “Jump Right” button is released [03-01-06]: 
+[x] change the scales so the two pictures look the same [03-02-06]: 
+[x] add appropriate transformations to make both images look the same [03-03-03]: 
+[x] define the canvas coordinate systems as specified [03-03-05]: 
+[x] quadcopter has a front and 4 arms [03-06-01]: 
+[x] four attached propellers that spin [03-06-01]: 
+[x] propellers spin at different rates [03-06-01]: 
+[x] goes around a circle [03-06-01]: 
+[x] faces points forward while going around circle [03-06-01]: 
+[x] a picture using SVG [03-08-01]: 
+[x] at least one path with an arc [03-08-01]: 
+[x] at least one polygon that is not a rectangle [03-08-01]: 
+[x] a hierarchy using grouping [03-08-01]: 
+[x] repeated instancing via use [03-08-01]: 
+[x] multiple vehicles (must have spinning parts) [03-06-01]: different colors
+[x] complex paths (at least one 'copter must be a circle) [03-06-01]: One is an elipse
+[x] cool looking vehicles [03-06-01]: 
+[x] interaction (be sure to document) [03-06-01]: Can control the blue coptor 
+[x] quadcopters do something beyond move in a path [03-06-01]: Shoots lasers
+[x] other articulated object [03-06-01]: dog(very bad dog, wagging its tail)
